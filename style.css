@@ -1,0 +1,31 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+}
+.large{
+    width: 87px;
+}
+input{
+    text-align: end;
+    padding: 5px;
+    height: 40px;
+    width: 171px;
+    font-size: 30px;
+    caret-color: transparent;
+    /* outline: 0;  */
+}
